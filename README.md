@@ -1,3 +1,7 @@
+### Youtube recording link
+
+Check out [this video](https://www.youtube.com/watch?v=PkGvF6Vq6QI)
+
 ### Instructions on how to set up the models
 
 #### Prerequisites

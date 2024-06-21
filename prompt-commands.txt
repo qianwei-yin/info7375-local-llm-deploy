@@ -1,0 +1,34 @@
+curl http://localhost:11434/api/generate -d '{
+ "model": "llama3",
+ "prompt":"What would you do if you had a day off from being a chatbot?",
+ "stream": false
+}'
+curl http://localhost:11434/api/generate -d '{
+ "model": "gemma:2b",
+ "prompt":"What would you do if you had a day off from being a chatbot?",
+ "stream": false
+}'
+
+
+curl http://localhost:11434/api/generate -d '{
+ "model": "llama3",
+ "prompt":"Can you tell me a joke about artificial intelligence?",
+ "stream": false
+}'
+curl http://localhost:11434/api/generate -d '{
+ "model": "gemma:2b",
+ "prompt":"Can you tell me a joke about artificial intelligence?",
+ "stream": false
+}'
+
+
+curl http://localhost:11434/api/generate -d '{
+ "model": "llama3",
+ "prompt":"How would you describe the internet to someone from the 19th century?",
+ "stream": false
+}'
+curl http://localhost:11434/api/generate -d '{
+ "model": "gemma:2b",
+ "prompt":"How would you describe the internet to someone from the 19th century?",
+ "stream": false
+}'
